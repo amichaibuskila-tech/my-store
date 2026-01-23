@@ -6,20 +6,18 @@ export default function Navbar() {
     return (
         <nav className={styles.navbar}>
             <p>
-
-                LOGO
-
+                <Link href="/">KSP</Link>
             </p>
-            <p>
 
+            <p>
                 <Link href="/computer"> computers </Link> |
-                <Link href="/smartphone"> smart phone </Link> |
-                <Link href="/smartwatch"> smart watch </Link> 
-
+                <Link href="/smartphone"> Smartphone </Link> |
+                <Link href="/smartwatch"> Smartwatch </Link> |
+                <Link href="/cart"> Cart</Link>
             </p>
             <p>
 
             </p>
-        </nav >
+        </nav>
     );
 }
