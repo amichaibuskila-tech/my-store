@@ -12,9 +12,9 @@ export default function Navbar() {
             </p>
             <p>
 
-                <Link href="/women">women</Link> |
-                <Link href="/kids">kids</Link> |
-                <Link href="/men">men</Link>
+                <Link href="/computer"> computers </Link> |
+                <Link href="/smartphone"> smart phone </Link> |
+                <Link href="/smartwatch"> smart watch </Link> 
 
             </p>
             <p>
