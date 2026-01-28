@@ -1,11 +1,19 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { getComputers } from '@/services/data.js';
 import { Card } from '@/app/components/Card/Card.jsx';
 
 
 export default function Home() {
+
+    useEffect(
+        ()=>{
+            console.log('aaa')
+
+        },
+        []
+    )
 
 
     return (
@@ -16,8 +24,8 @@ export default function Home() {
 
                 {
                     getComputers().map(
-                        (computer) => {
-                            return <Card data={computer} />
+                        (computer, idx) => {
+                            return <Card key={idx} data={computer} />
                         }
                     )
                 }
