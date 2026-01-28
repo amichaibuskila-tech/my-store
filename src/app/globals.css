@@ -10,7 +10,7 @@ body {
 }
 
 body {
-  color: #c81010;
+  color: #171717;
   background: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -34,10 +34,27 @@ a {
   }
 }
 
+
 .page-container {
+  min-height: 100vh;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   height: calc(100vh - 60px);
   overflow-y: auto;
-  background-color: turquoise;
 }
+
+.header{
+  background-color: #ffffff;
+  color : #171717;
+  text-align: center;
+  padding: 30px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: #6a6464 solid 5px;
+  width: 50%;
+  border-radius: 30px;
+  padding-left: auto;
+  padding-right: auto;
+
+}
+

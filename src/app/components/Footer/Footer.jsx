@@ -5,7 +5,7 @@ export default function Navbar() {
     return (
         <nav className={styles.container}>
             <div className="navbar-container">
-                <h1>Footer</h1>
+                <h1>amichai.buskila@gmail.com </h1>
             </div>
         </nav >
     );
