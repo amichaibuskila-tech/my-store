@@ -10,13 +10,12 @@ export default function Navbar() {
             </p>
 
             <p>
-                <Link href="/computer"> computers </Link> |
+                <Link href="/computer"> Computers </Link> |
                 <Link href="/smartphone"> Smartphone </Link> |
-                <Link href="/smartwatch"> Smartwatch </Link> |
-                <Link href="/cart"> Cart</Link>
+                <Link href="/smartwatch"> Smartwatch </Link>
             </p>
             <p>
-
+                <Link href="/cart"> Cart 🛒 </Link>
             </p>
         </nav>
     );

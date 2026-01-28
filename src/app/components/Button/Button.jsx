@@ -5,7 +5,7 @@ export default function Button({ callBack }) {
 
     return (
         <div className={styles.container} onClick={callBack}>
-            <p>Click</p>
+            <p>Click here!</p>
         </div>
     );
 }
