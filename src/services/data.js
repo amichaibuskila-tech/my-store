@@ -25,26 +25,9 @@ export function getComputers() {
 
 
 
-export function getSmartphone() {
-  return [
-    {
-      title: "phone1",
-      price: 10
-    },
-    {
-      title: "phone2",
-      price: 20
+export function getPhones() {
 
-    },
-    {
-      title: "phone3",
-      price: 30
-
-    },
-    {
-      title: "phone4",
-      price: 40
-      
-    }
-  ]
+  return fetch('https://fakestoreapi.com/products')
+    .then(res => res.json())
+    .then(json => console.log(json))
 }
