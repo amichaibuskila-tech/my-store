@@ -25,8 +25,8 @@ export default function SmartPhone() {
                 {
 
                     phones.map(
-                        (phone) => {
-                            return <Card data={phone} />
+                        (phone, idx) => {
+                            return <Card key={idx} data={phone} />
                         }
                     )
                 }
